@@ -1,0 +1,445 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-right: 0;
+    width: 1430px;
+}
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container .full-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 10%;
+    padding: 25px ;
+    
+}
+
+.about-mocktail {
+    font-size: 25px;
+    font-family: "ohno-blazeface", sans-serif;
+    font-weight: 100;
+    font-style: normal;;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: left;
+    color:  rgb(181, 6, 99);
+    display: inline-block;
+}
+
+.about-blurb {
+    font-size: 16px;
+    font-family: "utopia-std-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 23px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 700px;
+    text-align: justify;
+    display: inline-block;
+}
+
+
+
+.drinks-img {
+    font-size: 25px;
+    font-family: "ohno-blazeface", sans-serif;
+    font-weight: 100;
+    font-style: normal;;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: left;
+    color:  rgb(181, 6, 99);
+    display: inline-block;
+    
+}
+
+.drinks-img-text {
+    font-size: 16px;
+    font-family: "utopia-std-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 23px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 700px;
+    text-align: justify;
+    display: inline-block;
+}
+
+
+.top-nav-bar {
+    overflow: hidden;
+    background-color: white;
+}
+
+.top-nav-bar a {
+    float: left;
+    color: rgb(181, 6, 99);
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "ohno-blazeface", sans-serif;
+}
+.top-nav-bar a.split {
+    float: right;
+
+}
+
+.top-nav-bar a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.top-nav-bar a.active {
+    background-color: rgb(181, 6, 99);
+    color: white;
+}
+
+
+
+.container-winter {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+.winter-illu {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #F6E6CC;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.container-winter:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.text {
+  color: rgb(181, 6, 99);
+  font-size: 60px;
+  font-family: "ohno-blazeface", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-spring {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+.spring-illu {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #F6E6CC;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.container-spring:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.text {
+  color: rgb(181, 6, 99);
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-summer {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+.summer-illu {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #F6E6CC;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.container-summer:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.text {
+  color: rgb(181, 6, 99);
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-fall {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+.fall-illu {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #F6E6CC;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.container-fall:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.text {
+  color: rgb(181, 6, 99);
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+.container-text {
+   display: inline-block;
+   padding-bottom: 300px;
+   padding-top: 70px;
+  }
+  
+  .only-text {
+    margin-top: 120px;
+  }
+
+  .pink {
+    position: absolute;
+    width: 300px;
+    top: 10%;
+    bottom: 30%;
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: 70px;
+    margin-left: 80px;
+    
+  }
+
+  .about {
+    font-size: 25px;
+    padding-left: 500px;
+    margin-bottom: 3px;
+    font-family: "ohno-blazeface", sans-serif;
+    color: rgb(181, 6, 99);
+    display: inline-block;
+    margin-top: 50px;
+    padding-top: 40px;
+    text-align: justify;
+   
+
+  }
+
+  .about-text {
+    font-size: 18px;
+    font-family: "utopia-std-display", serif;
+    line-height: -2px;
+    padding-left: 500px;
+    display: inline-block;
+    margin-right: 100px;
+  }
+
+  .container-text {
+   display: inline-block;
+   padding-bottom: 300px;
+   padding-top: 70px;
+
+  }
+  
+  .pink {
+    position: absolute;
+    width: 415px;
+    height: 550px;
+    top: 80%;
+    bottom: 20%;
+    display: inline-block;
+    margin-top: 60px;
+    padding-top: 70px;
+    margin-left: 80px;
+  }
+
+  .about {
+    font-size: 25px;
+    padding-left: 500px;
+    margin-bottom: 3px;
+    font-family: "ohno-blazeface", sans-serif;
+    color: rgb(181, 6, 99);
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: 40px;
+    text-align: justify;
+    margin-right: 200px;
+    margin-left: 100px;
+
+  }
+
+  .about-text {
+    font-size: 18px;
+    font-family: "utopia-std-display", serif;
+    padding-left: 500px;
+    display: inline-block;
+    margin-right: 300px;
+    margin-right: 150px;
+    margin-left: 100px;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+  
+
+
+
+
+
+  .container-text-two {
+    display: inline-block;
+    padding-bottom: 300px;
+    padding-top: 70px;
+    
+ 
+   }
+   
+   .only-text-two {
+    margin-top: -80px;
+   }
+   .pink-two {
+     width: 440px;
+    position: absolute;
+     top: 138%;
+     bottom: 30%;
+     display: inline-block;
+     margin-top: 170px;
+     padding-top: 70px;
+     margin-left: 80px;
+
+     
+   }
+ 
+   .drinks {
+     font-size: 25px;
+     padding-left: 500px;
+     font-family: "ohno-blazeface", sans-serif;
+     color: rgb(181, 6, 99);
+     display: inline-block;
+     margin-top: 2px;
+     margin-bottom: 3px;
+     margin-right: 200px;
+     margin-left: 100px;
+     
+ 
+   }
+ 
+   .drinks-text {
+     font-size: 18px;
+     line-height: 25px;
+     font-family: "utopia-std-display", serif;
+     line-height: -2px;
+     padding-left: 500px;
+     display: inline-block;
+     margin-right: 150px;
+     margin-left: 100px;
+     text-align: justify;
+   }
+ 
+.home-page-extra {
+   text-align: center;
+    margin-bottom: 100px;
+    margin-top: -130px;
+    font-family: "map-roman-condensed", serif;
+    font-size: 25px;
+    color: rgb(181, 6, 99);
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.web-chain {
+    text-align: center;
+    padding-top: 110%;
+    margin-bottom: 100px;
+    font-family: "map-roman-condensed", serif;
+    font-size: 25px;
+    color: rgb(181, 6, 99);
+}
